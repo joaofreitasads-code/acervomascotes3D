@@ -1,0 +1,6 @@
+{
+  "name": "Acervo de Mascotes 3D",
+  "description": "Catálogo Oficial de Impressão 3D de Times - +500 modelos STL de mascotes dos maiores times de futebol com divisão inteligente e licença comercial inclusa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
