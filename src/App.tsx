@@ -78,34 +78,34 @@ const CATEGORIES = [
 ];
 
 const MASCOTS: Mascot[] = [
-  { name: 'Palmeiras (Porco)', club: 'Palmeiras', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-palmeiras-porco.webp' },
-  { name: 'São Paulo', club: 'São Paulo', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-sao-paulo.webp' },
-  { name: 'Santos', club: 'Santos', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-santos.webp' },
-  { name: 'Botafogo', club: 'Botafogo', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-botafogo.webp' },
-  { name: 'Flamengo', club: 'Flamengo', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-flamengo.webp' },
-  { name: 'Palmeiras', club: 'Palmeiras', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-palmeiras.webp' },
-  { name: 'Atlético-MG', club: 'Atlético-MG', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-atletico-mg.webp' },
-  { name: 'Cruzeiro', club: 'Cruzeiro', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-cruzeiro.webp' },
-  { name: 'Grêmio', club: 'Grêmio', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-gremio.webp' },
-  { name: 'Internacional', club: 'Internacional', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-internacional.webp' },
-  { name: 'Vasco', club: 'Vasco', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/mascote-vasco.webp' },
+  { name: 'Palmeiras (Porco)', club: 'Palmeiras', img: '/assets/mascots/mascote-palmeiras-porco.webp' },
+  { name: 'São Paulo', club: 'São Paulo', img: '/assets/mascots/mascote-sao-paulo.webp' },
+  { name: 'Santos', club: 'Santos', img: '/assets/mascots/mascote-santos.webp' },
+  { name: 'Botafogo', club: 'Botafogo', img: '/assets/mascots/mascote-botafogo.webp' },
+  { name: 'Flamengo', club: 'Flamengo', img: '/assets/mascots/mascote-flamengo.webp' },
+  { name: 'Palmeiras', club: 'Palmeiras', img: '/assets/mascots/mascote-palmeiras.webp' },
+  { name: 'Atlético-MG', club: 'Atlético-MG', img: '/assets/mascots/mascote-atletico-mg.webp' },
+  { name: 'Cruzeiro', club: 'Cruzeiro', img: '/assets/mascots/mascote-cruzeiro.webp' },
+  { name: 'Grêmio', club: 'Grêmio', img: '/assets/mascots/mascote-gremio.webp' },
+  { name: 'Internacional', club: 'Internacional', img: '/assets/mascots/mascote-internacional.webp' },
+  { name: 'Vasco', club: 'Vasco', img: '/assets/mascots/mascote-vasco.webp' },
 ];
 
 const STADIUMS: Stadium[] = [
-  { name: 'Vila Belmiro', club: 'Santos', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-santos.webp' },
-  { name: 'Neo Química Arena', club: 'Corinthians', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-corinthians.webp' },
-  { name: 'Allianz Parque', club: 'Palmeiras', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-palmeiras.webp' },
-  { name: 'Beira-Rio', club: 'Internacional', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-internacional.webp' },
-  { name: 'São Januário', club: 'Vasco', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-vasco.webp' },
-  { name: 'Morumbi', club: 'São Paulo', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-sao-paulo.webp' },
-  { name: 'Arena MRV', club: 'Atlético-MG', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-arena-mrv.webp' },
-  { name: 'Maracanã', club: 'Rio de Janeiro', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-maracana.webp' },
-  { name: 'Arena do Grêmio', club: 'Grêmio', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-arena-gremio.webp' },
-  { name: 'Maracanã Rubro-Negro', club: 'Flamengo', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-flamengo.webp' },
-  { name: 'Couto Pereira', club: 'Coritiba', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-couto-pereira.webp' },
-  { name: 'Aflitos – Náutico', club: 'Náutico', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-aflitos.webp' },
-  { name: 'Mineirão', club: 'Cruzeiro / Minas', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-mineirao.webp' },
-  { name: 'Nilton Santos', club: 'Botafogo', img: 'https://pack-de-est-dios-em-stl-25-modelos-para-impress-o.ai.studio/images/estadio-nilton-santos.webp' },
+  { name: 'Vila Belmiro', club: 'Santos', img: '/assets/stadiums/estadio-santos.webp' },
+  { name: 'Neo Química Arena', club: 'Corinthians', img: '/assets/stadiums/estadio-corinthians.webp' },
+  { name: 'Allianz Parque', club: 'Palmeiras', img: '/assets/stadiums/estadio-palmeiras.webp' },
+  { name: 'Beira-Rio', club: 'Internacional', img: '/assets/stadiums/estadio-internacional.webp' },
+  { name: 'São Januário', club: 'Vasco', img: '/assets/stadiums/estadio-vasco.webp' },
+  { name: 'Morumbi', club: 'São Paulo', img: '/assets/stadiums/estadio-sao-paulo.webp' },
+  { name: 'Arena MRV', club: 'Atlético-MG', img: '/assets/stadiums/estadio-arena-mrv.webp' },
+  { name: 'Maracanã', club: 'Rio de Janeiro', img: '/assets/stadiums/estadio-maracana.webp' },
+  { name: 'Arena do Grêmio', club: 'Grêmio', img: '/assets/stadiums/estadio-arena-gremio.webp' },
+  { name: 'Maracanã Rubro-Negro', club: 'Flamengo', img: '/assets/stadiums/estadio-flamengo.webp' },
+  { name: 'Couto Pereira', club: 'Coritiba', img: '/assets/stadiums/estadio-couto-pereira.webp' },
+  { name: 'Aflitos – Náutico', club: 'Náutico', img: '/assets/stadiums/estadio-aflitos.webp' },
+  { name: 'Mineirão', club: 'Cruzeiro / Minas', img: '/assets/stadiums/estadio-mineirao.webp' },
+  { name: 'Nilton Santos', club: 'Botafogo', img: '/assets/stadiums/estadio-nilton-santos.webp' },
 ];
 
 const BONUSES: Bonus[] = [
@@ -173,29 +173,29 @@ const VALIDATION_ITEMS: ValidationItem[] = [
 ];
 
 const GALLERY_ROW_1 = [
-  'https://areamembers-mu.vercel.app/canecas-gamer/playstation.webp',
-  'https://areamembers-mu.vercel.app/canecas-gamer/mortal_kombat.webp',
-  'https://areamembers-mu.vercel.app/canecas-gamer/call_of_duty.webp',
-  'https://areamembers-mu.vercel.app/canecas-gamer/gta.webp',
-  'https://lh3.googleusercontent.com/d/17rBh-zHuLq-WZudcPTLXF3OBdxs3k5UC=s220-rw',
-  'https://lh3.googleusercontent.com/d/12fM-kRDZtGGy5oAKsXJJohwFp3DwgTVx=s220-rw',
-  'https://lh3.googleusercontent.com/d/1xC5E54SS3iRXEcTqXod_rzbUs01kJxav=s220-rw',
-  'https://lh3.googleusercontent.com/d/14XJ4ieeoREzAgN2nGK2liULBDslFsJtQ=s220-rw',
-  'https://lh3.googleusercontent.com/d/1TcMwI0ZzZhugxk_61Z5WXsdDx2f_V05b=s220-rw',
-  'https://lh3.googleusercontent.com/d/1C2D0Cmfld0oPgJvCD9gqH0pTuW7u1IoT=s220-rw',
+  '/assets/gallery/playstation.webp',
+  '/assets/gallery/mortal_kombat.webp',
+  '/assets/gallery/call_of_duty.webp',
+  '/assets/gallery/gta.webp',
+  '/assets/gallery/g_item_1.webp',
+  '/assets/gallery/g_item_2.webp',
+  '/assets/gallery/g_item_3.webp',
+  '/assets/gallery/g_item_4.webp',
+  '/assets/gallery/g_item_5.webp',
+  '/assets/gallery/g_item_6.webp',
 ];
 
 const GALLERY_ROW_2 = [
-  'https://lh3.googleusercontent.com/d/1DaotQrXv_D2zP_eRK_Dy0uwUP953SQOL=s220-rw',
-  'https://lh3.googleusercontent.com/d/1kQP1fLge4YSnYh_nnwHG0o4YUiKLCj0R=s220-rw',
-  'https://i.imgur.com/Wl0KmLQ.png',
-  'https://i.imgur.com/dxfk5Cr.png',
-  'https://i.imgur.com/GKoHHaP.png',
-  'https://i.imgur.com/vNqQZwt.png',
-  'https://i.imgur.com/MN77Jwx.png',
-  'https://i.imgur.com/wJEEkV7.png',
-  'https://i.imgur.com/H92Ssa6.png',
-  'https://i.imgur.com/qkLMNcS.png',
+  '/assets/gallery/g_item_7.webp',
+  '/assets/gallery/g_item_8.webp',
+  '/assets/gallery/g_item_9.webp',
+  '/assets/gallery/g_item_10.webp',
+  '/assets/gallery/g_item_11.webp',
+  '/assets/gallery/g_item_12.webp',
+  '/assets/gallery/g_item_13.webp',
+  '/assets/gallery/g_item_14.webp',
+  '/assets/gallery/g_item_15.webp',
+  '/assets/gallery/g_item_16.webp',
 ];
 
 const TESTIMONIALS: TestimonialItem[] = [
@@ -264,9 +264,14 @@ export default function App() {
     setIsVideoPlaying(true);
     if (videoRef.current) {
       if (!videoRef.current.src) {
-        videoRef.current.src = 'https://i.imgur.com/it19bfB.mp4#t=0.001';
+        videoRef.current.src = '/assets/video-catalogo.mp4';
       }
-      videoRef.current.play().catch(() => {});
+      videoRef.current.play().catch(() => {
+        if (videoRef.current && videoRef.current.src.indexOf('imgur') === -1) {
+          videoRef.current.src = 'https://i.imgur.com/it19bfB.mp4#t=0.001';
+          videoRef.current.play().catch(() => {});
+        }
+      });
     }
   };
 
@@ -410,15 +415,15 @@ export default function App() {
             {[...MASCOTS, ...MASCOTS].map((m, idx) => (
               <div
                 key={`mascot-${idx}`}
-                className="rounded-2xl overflow-hidden shrink-0 w-44 sm:w-56 md:w-64 aspect-square bg-[#0C140E] border-2 border-[#00FF66]/50 shadow-[0_0_15px_rgba(0,255,102,0.25)] md:hover:shadow-[0_0_25px_rgba(0,255,102,0.6)] group transition-all duration-300 mx-2 relative"
+                className="marquee-item rounded-2xl overflow-hidden shrink-0 w-40 sm:w-52 md:w-60 aspect-square bg-[#0C140E] border border-[#00FF66]/35 md:hover:border-[#00FF66] md:hover:shadow-[0_0_20px_rgba(0,255,102,0.4)] transition-all duration-300 mx-2 relative"
               >
                 <img
                   alt={m.name}
-                  width="300"
-                  height="300"
-                  loading="lazy"
+                  width="260"
+                  height="260"
+                  loading="eager"
                   decoding="async"
-                  className="w-full h-full object-cover transition-transform duration-300 md:group-hover:scale-105 select-none"
+                  className="w-full h-full object-cover select-none"
                   src={m.img}
                 />
               </div>
@@ -434,15 +439,15 @@ export default function App() {
             {[...STADIUMS, ...STADIUMS].map((s, idx) => (
               <div
                 key={`stadium-${idx}`}
-                className="rounded-2xl overflow-hidden shrink-0 w-44 sm:w-56 md:w-64 aspect-square bg-[#0C140E] border-2 border-[#00FF66]/50 shadow-[0_0_15px_rgba(0,255,102,0.25)] md:hover:shadow-[0_0_25px_rgba(0,255,102,0.6)] group transition-all duration-300 mx-2 relative"
+                className="marquee-item rounded-2xl overflow-hidden shrink-0 w-40 sm:w-52 md:w-60 aspect-square bg-[#0C140E] border border-[#00FF66]/35 md:hover:border-[#00FF66] md:hover:shadow-[0_0_20px_rgba(0,255,102,0.4)] transition-all duration-300 mx-2 relative"
               >
                 <img
                   alt={s.name}
-                  width="300"
-                  height="300"
-                  loading="lazy"
+                  width="260"
+                  height="260"
+                  loading="eager"
                   decoding="async"
-                  className="w-full h-full object-cover transition-transform duration-300 md:group-hover:scale-105 select-none"
+                  className="w-full h-full object-cover select-none"
                   src={s.img}
                 />
               </div>
@@ -519,12 +524,17 @@ export default function App() {
                   <video
                     ref={videoRef}
                     id="video-catalogo-notebook"
-                    src="https://i.imgur.com/it19bfB.mp4#t=0.001"
+                    src="/assets/video-catalogo.mp4"
                     playsInline
                     preload="none"
                     poster="/assets/video-poster.webp"
                     controls={isVideoPlaying}
                     className="w-full h-full object-cover"
+                    onError={(e) => {
+                      if (e.currentTarget.src.indexOf('imgur') === -1) {
+                        e.currentTarget.src = 'https://i.imgur.com/it19bfB.mp4#t=0.001';
+                      }
+                    }}
                   >
                     Seu navegador não suporta a reprodução de vídeo.
                   </video>
@@ -775,16 +785,15 @@ export default function App() {
             {[...GALLERY_ROW_1, ...GALLERY_ROW_1].map((imgUrl, idx) => (
               <div
                 key={`gallery-r1-${idx}`}
-                className="rounded-2xl overflow-hidden shrink-0 w-44 sm:w-56 md:w-64 aspect-square bg-[#0C140E] border-2 border-[#00FF66]/50 shadow-[0_0_15px_rgba(0,255,102,0.25)] md:hover:shadow-[0_0_25px_rgba(0,255,102,0.6)] group transition-all duration-300 mx-2 relative"
+                className="marquee-item rounded-2xl overflow-hidden shrink-0 w-40 sm:w-52 md:w-60 aspect-square bg-[#0C140E] border border-[#00FF66]/35 md:hover:border-[#00FF66] md:hover:shadow-[0_0_20px_rgba(0,255,102,0.4)] transition-all duration-300 mx-2 relative"
               >
                 <img
                   alt={`Modelo 3D ${idx + 1}`}
                   width="250"
                   height="250"
-                  loading="lazy"
+                  loading="eager"
                   decoding="async"
-                  referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover transition-transform duration-300 md:group-hover:scale-105 select-none"
+                  className="w-full h-full object-cover select-none"
                   src={imgUrl}
                 />
               </div>
@@ -800,16 +809,15 @@ export default function App() {
             {[...GALLERY_ROW_2, ...GALLERY_ROW_2].map((imgUrl, idx) => (
               <div
                 key={`gallery-r2-${idx}`}
-                className="rounded-2xl overflow-hidden shrink-0 w-44 sm:w-56 md:w-64 aspect-square bg-[#0C140E] border-2 border-[#00FF66]/50 shadow-[0_0_15px_rgba(0,255,102,0.25)] md:hover:shadow-[0_0_25px_rgba(0,255,102,0.6)] group transition-all duration-300 mx-2 relative"
+                className="marquee-item rounded-2xl overflow-hidden shrink-0 w-40 sm:w-52 md:w-60 aspect-square bg-[#0C140E] border border-[#00FF66]/35 md:hover:border-[#00FF66] md:hover:shadow-[0_0_20px_rgba(0,255,102,0.4)] transition-all duration-300 mx-2 relative"
               >
                 <img
                   alt={`Modelo 3D ${idx + 1}`}
                   width="250"
                   height="250"
-                  loading="lazy"
+                  loading="eager"
                   decoding="async"
-                  referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover transition-transform duration-300 md:group-hover:scale-105 select-none"
+                  className="w-full h-full object-cover select-none"
                   src={imgUrl}
                 />
               </div>
@@ -1140,7 +1148,10 @@ export default function App() {
                   loading="lazy"
                   decoding="async"
                   className="relative z-10 w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 object-contain drop-shadow-[0_15px_40px_rgba(0,255,102,0.45)] select-none transition-transform duration-300 group-hover:scale-105"
-                  src="https://centralprime3d.com/assets/garantia-14-dias.webp"
+                  src="/assets/garantia-14-dias.webp"
+                  onError={(e) => {
+                    e.currentTarget.src = 'https://centralprime3d.com/assets/garantia-14-dias.webp';
+                  }}
                 />
               </div>
 

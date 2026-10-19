@@ -12,10 +12,10 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Below-the-fold content optimization for weaker mobile devices */
+/* Below-the-fold content optimization for mobile */
 .section-lazy {
   content-visibility: auto;
-  contain-intrinsic-size: 1px 650px;
+  contain-intrinsic-size: 1px 600px;
 }
 
 .grad-text {
@@ -34,7 +34,9 @@ html {
     radial-gradient(1px 1px at 210px 180px, rgba(0, 255, 102, 0.25) 100%, transparent);
   background-repeat: repeat;
   background-size: 240px 220px;
+  will-change: transform;
   transform: translate3d(0, 0, 0);
+  contain: strict;
 }
 
 @keyframes float {
@@ -42,15 +44,17 @@ html {
     transform: translate3d(0, 0, 0);
   }
   50% {
-    transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -8px, 0);
   }
 }
 
 .animate-float {
   will-change: transform;
   animation: 4s ease-in-out infinite float;
+  transform: translate3d(0, 0, 0);
 }
 
+/* Highly Optimized GPU-composited Marquee Animations */
 @keyframes marqueeAnimation {
   0% {
     transform: translate3d(0, 0, 0);
@@ -70,30 +74,54 @@ html {
 }
 
 .marquee {
-  contain: layout paint style;
-  backface-visibility: hidden;
   width: max-content;
   display: flex;
+  will-change: transform;
   transform: translate3d(0, 0, 0);
-  animation: 22s linear infinite marqueeAnimation !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  contain: layout paint;
+  animation: 25s linear infinite marqueeAnimation !important;
 }
 
 .marquee-cards {
-  contain: layout paint style;
-  backface-visibility: hidden;
   width: max-content;
   display: flex;
+  will-change: transform;
   transform: translate3d(0, 0, 0);
-  animation: 28s linear infinite marqueeAnimation !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  contain: layout paint;
+  animation: 36s linear infinite marqueeAnimation !important;
 }
 
 .marquee-cards-reverse {
-  contain: layout paint style;
-  backface-visibility: hidden;
   width: max-content;
   display: flex;
+  will-change: transform;
   transform: translate3d(0, 0, 0);
-  animation: 28s linear infinite marqueeReverseAnimation !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  contain: layout paint;
+  animation: 36s linear infinite marqueeReverseAnimation !important;
+}
+
+/* Lightweight Card Isolation for 60/120fps Marquee rendering */
+.marquee-item {
+  contain: strict;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 @media (prefers-reduced-motion: reduce) {
